@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 3rem;
+ }
+ p{
+    font-family: 'roboto', 'sans-sarif';
+    font-size: 1.25rem;
+    color:var(--secondary-text-color);
+    line-height: 1.8rem;
+    padding-top: 10px;
+ }
+ header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, rgba(53, 59, 72,0.4) 70%, rgba(127, 143, 166,0.4) 30% );
+ }   
+.top-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 70px;
+}
+.s-m{
+    padding: 10px;
+    font-size: 15px;
+    margin-left: -30px;
+    display: flex;
+    gap: 10px;  
+}
+.F{
+    background: #0165e1;
+    color: white;
+    padding: 5px;
+}
+.T{
+    background: #1D9BF0;
+    color: white;
+    padding: 5px;
+}
+.I{
+    background: #5851DB;
+    color: white;
+    padding: 5px;
+}
+.W{
+    background: #25D366;
+    color: white;
+    padding: 5px;
+}
+.S{
+    background: #009EDC;
+    color: white;
+    padding: 5px;
+}
+#email{
+    color: #5851DB;
+    text-decoration: none;
+    cursor: pointer;
+}
+#email:hover{
+    color: #25D366;
+    transition-duration: 0.2s;
+    
+
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+   
+
+
+
+/*final nav*/
+
+.logos{
+    font-size: 50px;
+    font-family: 'roboto';
+    font-weight: bolder;
+    margin-left: 45px;
+}
+#Port{
+    color: red;
+}
+#folio{
+    color: pink;
+}
+.nav-links{
+    padding: 10px 70px;
+    border-radius: 10px;
+    font-size: 15px;
+    display: flex;
+    gap: 22px;
+    align-items: center;
+}
+.hover-link{
+    text-decoration: none;
+    color: black;
+}
+.hover-link:hover{
+    color:aqua;
+}
+.Home{
+    border: 2px solid red;
+    border-radius: 7px;
+    padding: 10px 20px;
+    background-color: #25D366;
+}
+.section{
+    margin-left: 45px;
+}
+.sub-footer{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+.primary-button{
+    border: 5px solid red;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #5851DB;
+}
+.secondary-button{
+    border: 5px solid blue;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: red;
+}
+.image{
+    height: 467px;
+    width: 30%
+}
+#Design{
+    border: 3px solid green;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-left: -10px;
+    background-color: #009EDC; 
+}
